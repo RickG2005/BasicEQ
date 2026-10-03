@@ -1,0 +1,23 @@
+# Ignore build artifacts and generated IDE files
+**/Builds/
+**/build/
+**/x64/
+**/x86/
+**/Debug/
+**/Release/
+
+# Ignore Visual Studio & VS Code local settings
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore intermediate JuceLibraryCode files, BUT KEEP AppConfig.h & JuceHeader.h
+**/JuceLibraryCode/*
+!**/JuceLibraryCode/AppConfig.h
+!**/JuceLibraryCode/JuceHeader.h
+
+# System junk
+.DS_Store
+Thumbs.db
